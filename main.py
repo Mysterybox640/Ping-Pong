@@ -1,6 +1,6 @@
 from pygame import *
 
-win = display.set_mode((screen_width,screen_height))
+win = display.set_mode((700,500))
 display.set_caption("Shooter game")
 clock = time.Clock()
 
