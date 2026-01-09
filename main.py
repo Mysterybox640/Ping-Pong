@@ -15,3 +15,12 @@ class GameSprite(sprite.Sprite):
         self.rect.y = sprite_y
     def reset(self):
         win.blit(self.image,(self.rect.x,self.rect.y))
+
+
+game = True
+while game:
+    for e in event.get():
+        if e.type == QUIT:
+            game = False
+    clock.tick(FPS)
+    display.update()
