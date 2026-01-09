@@ -1,7 +1,7 @@
 from pygame import *
 
 win = display.set_mode((700,500))
-display.set_caption("Shooter game")
+display.set_caption("Ping-Pong game")
 clock = time.Clock()
 
 # Classes
