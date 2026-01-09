@@ -8,7 +8,7 @@ clock = time.Clock()
 class GameSprite(sprite.Sprite):
     def __init__(self,sprite_image,sprite_x,sprite_y,sprite_speed):
         super().__init__()
-        self.image = transform.scale(image.load(sprite_image),object_size)
+        self.image = transform.scale(image.load(sprite_image),(25,25))
         self.speed = sprite_speed
         self.rect = self.image.get_rect()
         self.rect.x = sprite_x
