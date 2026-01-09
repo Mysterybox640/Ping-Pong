@@ -1,5 +1,9 @@
 from pygame import *
 
+win = display.set_mode((screen_width,screen_height))
+display.set_caption("Shooter game")
+clock = time.Clock()
+
 # Classes
 class GameSprite(sprite.Sprite):
     def __init__(self,sprite_image,sprite_x,sprite_y,sprite_speed):
