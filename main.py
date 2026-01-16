@@ -2,7 +2,6 @@ from pygame import *
 
 # Variables
 FPS = 60
-
 win = display.set_mode((700,500))
 display.set_caption("Ping-Pong game")
 clock = time.Clock()
